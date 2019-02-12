@@ -36,4 +36,4 @@ for delay in range(0,10000000,2): #step 2 just because layer 2 has range 2 => av
         print('Solution 2nd part:', delay)
         break
 
-print('Completed in ' + str(time() - start) + ' seconds.')
+print('Completed in', time() - start, 'seconds.')
